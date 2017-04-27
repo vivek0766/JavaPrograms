@@ -1,14 +1,17 @@
 package com.csrk.monthfinder;
 
-import java.util.Scanner;
+
 
 public class MonthExample {
+	int number ;
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	public void findMonth(String month) {
+		/*Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter Month number->");
-		int num = sc.nextInt();
+		int num = sc.nextInt();*/
+		int num =Integer.parseInt(month);
+		
 		switch(num){
 		case 1: 
 		System.out.println("This is January");
