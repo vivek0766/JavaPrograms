@@ -1,11 +1,11 @@
 package com.csrk.monthfinder;
 
-
+import com.csrk.exceptions.NotAValidInputException;
 
 public class MonthExample {
 	int number ;
 
-	public void findMonth(String month) {
+	public void findMonth(String month) throws NotAValidInputException{
 		/*Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter Month number->");
