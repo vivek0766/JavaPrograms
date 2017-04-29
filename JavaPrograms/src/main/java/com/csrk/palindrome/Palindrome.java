@@ -22,7 +22,7 @@ public class Palindrome {
 	// http://www.programmingunit.com/2014/02/23/java-program-palindrome-command-line-input/
 	public void printName(String name) {
 		String msg = name.toString().toLowerCase();
-		String rev = new StringBuilder(msg).reverse().toString();
+		String rev = new StringBuffer(msg).reverse().toString();
 		if (msg.equals(rev)) {
 			System.out.println("Given String " + msg + " is a Palindrome.");
 		} else {
