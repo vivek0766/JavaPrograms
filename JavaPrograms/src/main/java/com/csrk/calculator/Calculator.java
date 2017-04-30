@@ -1,10 +1,10 @@
-package com.csrk.datatypes;
+package com.csrk.calculator;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class Caliculator {
+public class Calculator {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
          int a ;         int b  ;
          int Addition, Substraction, Multiplication, Division;
@@ -21,5 +21,14 @@ public class Caliculator {
           System.out.println("Substraction of a and b-> "+Substraction);
           System.out.println(" Multiplication of a and b->"+Multiplication);
           System.out.println("Division of a and b->"+Division);
+          sc.close();
+	}*/
+	
+	int a, b=0;
+	
+	public void division(String value) throws ArithmeticException, NumberFormatException{
+		a = Integer.parseInt(value);
+		int c = a/b;
+		System.out.println("The value of C-->"+c);
 	}
 }
