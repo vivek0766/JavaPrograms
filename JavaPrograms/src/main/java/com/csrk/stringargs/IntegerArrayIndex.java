@@ -4,7 +4,7 @@ package com.csrk.stringargs;
 
 public class IntegerArrayIndex {
 
-	public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
+	public static void main(String[] args)  {
 		IntegerArray indexofArray = new IntegerArray();
 		try {
 			indexofArray.findIndex(args[0]);
