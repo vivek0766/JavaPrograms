@@ -11,7 +11,7 @@ public class FindArrayApp {
 			
 		}
 		
-		
+		findArray.roomMems();
 
 	}
 

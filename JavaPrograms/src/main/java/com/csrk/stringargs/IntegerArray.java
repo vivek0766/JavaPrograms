@@ -7,7 +7,7 @@ public class IntegerArray {
 
 	public int findIndex(String value) throws NotAValidInputException, ArrayIndexOutOfBoundsException {
 		int number = Integer.parseInt(value);
-		int indexofnum = -1;
+		int indexofnum =-1;
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] == number) {
 				indexofnum = i;

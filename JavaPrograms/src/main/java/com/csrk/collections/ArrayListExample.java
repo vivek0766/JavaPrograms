@@ -24,7 +24,7 @@ public class ArrayListExample {
 		
 		Iterator iterator  = numbersList.iterator();
 		while(iterator.hasNext()){
-			System.out.println("The element in the ArrayList-->"+iterator.next());
+			System.out.println("The index of the Value "+iterator.next()+ " is "+numbersList.indexOf(iterator.next()));
 		}
 		System.out.println("The Elements present in the ArrayList are -->");
 		for(int i = 0; i<numbersList.size(); i++){
